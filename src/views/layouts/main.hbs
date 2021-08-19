@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http.equiv="X-UA-Compatible"
+ content="ie=edge">
+ 	<title> Tienda Online </title>
+ 	<link rel="icon" href="img/logo_1.ico"/>
+ 	<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+ 	<link rel="stylesheet" type="text/css" href="/css/responsive.css">
+ 	<!-- BOOTSTRAP4 -->
+ 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<!-- FONTAWESOME AND GOOGLEFONTS -->
+	<script src="https://kit.fontawesome.com/3b17f57e78.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+	{{> navigation }}
+	{{> messages }}
+	{{> errors }}
+	<main>
+		{{{ body }}}
+	</main>
+	{{> footer }}
+	<!-- BOOTSTRAP4 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

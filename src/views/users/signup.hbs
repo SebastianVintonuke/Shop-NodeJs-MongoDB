@@ -1,0 +1,22 @@
+<div class="signup">
+	<div class="signup-banner">
+		<div class="signup-container">
+			<h2> Registra tu cuenta </h2>
+			<hr>
+			<form action="/users/signup" method="POST">
+				<h3> Usuario </h3>
+				<input type="text" name="name" value="{{name}}" autofocus>
+				<h3> Dirección de correo electrónico </h3>
+				<input type="email" name="email" value="{{email}}">
+				<h3> Contraseña </h3>
+				<input type="password" name="password" value="{{password}}">
+				<h3> Repite tu contraseña </h3>
+				<input type="password" name="confirm_password" value="{{confirm_password}}">
+				<br>
+				<button type="submit"> Registrarse </button>
+			</form>
+			<hr>
+			<a href="/users/signin"> ¿YA TIENES UNA CUENTA? </a><br>
+		</div>
+	</div>
+</div>

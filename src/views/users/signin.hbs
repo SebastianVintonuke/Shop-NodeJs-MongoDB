@@ -1,0 +1,19 @@
+<div class="signin">
+	<div class="signin-banner">
+		<div class="signin-container">
+			<h2> Iniciar sesión </h2>
+			<hr>
+			<form action="/users/signin" method="POST">
+				<h3> Dirección de correo electrónico </h3>
+				<input type="email" name="email" value="{{email}}" autofocus>
+				<h3> Contraseña </h3>
+				<input type="password" name="password" value="{{password}}">
+				<br>
+				<button type="submit"> Ingresar </button>
+			</form>
+			<hr>
+			<a href=""> ¿NO PUEDES INICIAR SESIÓN? </a><br>
+			<a href="/users/signup"> CREAR CUENTA </a>
+		</div>
+	</div>
+</div>

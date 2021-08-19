@@ -1,0 +1,16 @@
+<div class="contactUs">
+	<h2> CONTACTA CON NOSOTROS </h2>
+	<hr>
+	<form action="/contactUs" method="POST">
+		<h3> Nombre </h3>
+		<input type="text" name="name" value="{{name}}">
+		<h3> Dirección de correo electrónico </h3>
+		<input type="email" name="email" value="{{email}}">
+		<h3> Asunto </h3>
+		<input type="text" name="topic" value="{{topic}}">
+		<h3> ¿Cómo podemos ayudar? </h3>
+		<textarea name="text" rows="4" cols="23"> {{text}} </textarea>
+		<br>
+		<button type="submit"> Enviar </button>
+	</form>
+</div>

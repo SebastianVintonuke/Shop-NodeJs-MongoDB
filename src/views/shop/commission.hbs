@@ -1,0 +1,27 @@
+<div class="commission">
+	<div class="commission-banner">
+		<div>
+			<h2> ENCARGOS </h2>
+			<hr>
+		</div>
+		<div>
+			<h3>
+				¿Necesitas un encargo?
+			</h3>
+			<h3>
+				¿Buscas un producto único?
+			</h3>
+			<p>
+				Puedes solicitar cualquier encargo personalizado poniéndote en contacto con nosotros.
+			</p>
+		</div>
+		<br>
+		<div class="d-grid gap-2 col-6 mx-auto">
+			{{#if user}}
+			{{else}}
+				<a class="btn btn-dark" href="/users/signin" type="button"> Iniciar sesión </a>
+			{{/if}}
+			<a class="btn btn-dark" href="/contactUs" type="button"> Contacto </a>
+		</div>
+	</div>
+</div>

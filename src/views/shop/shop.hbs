@@ -1,0 +1,22 @@
+<div class="store">
+	<div class="store_banner">
+		<div class="row">
+			<h2> {{ title }} </h2>
+			<hr>
+		</div>
+		<div class="row">
+			{{#each products}}
+			<div class="col-md-4">
+				<div class="card mb-4 border-dark">
+					<img class="card-img-top" src="img/{{ image }}" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title"> $ {{ price }} </h5>
+						<p class="card-text"> {{ name }} </p>
+						<a href="/product-{{_id}}" class="btn btn-dark btn-md"> Ver Mas </a>
+					</div>
+				</div>
+			</div>
+			{{/each}}
+		</div>
+	</div>
+</div>
