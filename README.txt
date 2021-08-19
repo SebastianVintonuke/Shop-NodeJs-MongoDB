@@ -4,7 +4,7 @@
 
 Es un proyecto basico para la integracion de diferentes tecnologias como NodeJs y MongoDB y algunos modulos como express, handlebars, session, mongoose, etc.
 
-Consiste en un tienda online que carga y organiza sus productos desde una base de datos.
+Consiste en una tienda online que carga y organiza sus productos desde una base de datos.
 Permite a un usuario registrarse y gestionar un carrito de compras personal desde su cuenta.
 Ademas incluye otras funcionalidades como envio de formularios de contacto.
 
